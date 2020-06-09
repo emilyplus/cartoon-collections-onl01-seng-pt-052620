@@ -24,6 +24,7 @@ long_planeteer_calls(words)
 
 def find_the_cheese(cheese)
   cheese_types = ["cheddar", "gouda", "camembert"]
+  
   soup.include?(cheese_types) |index| index
 end
 
