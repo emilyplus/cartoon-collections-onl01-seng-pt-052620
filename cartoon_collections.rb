@@ -28,3 +28,7 @@ def find_the_cheese(cheese)
   end
 end
 
+  cheese_types = ["cheddar", "gouda", "camembert"]
+  soup = ["tomato soup", "cheddar", "oyster crackers", "gouda"]
+  soup.include?(cheese_types) |index| index
+
