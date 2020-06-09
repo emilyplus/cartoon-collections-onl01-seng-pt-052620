@@ -24,8 +24,8 @@ long_planeteer_calls(words)
 
 def find_the_cheese(cheese)
   cheese_types = ["cheddar", "gouda", "camembert"]
-  soup = ["tomato soup", "cheddar", "oyster crackers", "gouda"]
-  soup.each do |index|
+  cheese = ["tomato soup", "cheddar", "oyster crackers", "gouda"]
+  cheese.each do |index|
     puts index
   end
 end
