@@ -25,7 +25,7 @@ long_planeteer_calls(words)
 def find_the_cheese(cheese)
   cheese_types = ["cheddar", "gouda", "camembert"]
   cheese.each do |index|
-    if index == cheese_type
+    if index == cheese_types
   end
 end
 
