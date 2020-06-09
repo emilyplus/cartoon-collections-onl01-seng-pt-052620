@@ -22,15 +22,15 @@ long_planeteer_calls(words)
 
 
 
-def find_the_cheese(cheese)
+def find_the_cheese (cheeses)
+  i = 0
   cheese_types = ["cheddar", "gouda", "camembert"]
-  cheese.each do |index|
-    if index == cheese_types
-      index
-    else
-      nil
+    while i < cheese_types.length
+      if cheeses.include? (cheese_types[i])
+        return cheese_types[i]
+      end
+      i += 1
     end
-  end
 end
 
 
