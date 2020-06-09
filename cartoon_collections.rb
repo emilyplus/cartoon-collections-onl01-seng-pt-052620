@@ -26,7 +26,7 @@ def find_the_cheese(cheese)
   cheese_types = ["cheddar", "gouda", "camembert"]
   soup = ["tomato soup", "cheddar", "oyster crackers", "gouda"]
   soup.each do |index|
-    index
+    puts index
   end
 end
 
